@@ -8,18 +8,16 @@ import Contato from './Components/Contato';
 
 const App = () => {
   return (
-    <div>
-      <BrowserRouter>
-        <Header />
-          <Routes>
-            <Route  path='/' element={<Home />}/>
-            <Route path='/cursos' element={<Cursos />} />
-            <Route path='/contato' element={<Contato />} />
-          </Routes>
-        <Footer />
-      </BrowserRouter>
-    </div> 
-  )
-}
+    <BrowserRouter>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/cursos" element={<Cursos />} />
+        <Route path="/contato" element={<Contato />} />
+      </Routes>
+      <Footer />
+    </BrowserRouter>
+  );
+};
 
 export default App;
