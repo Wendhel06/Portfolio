@@ -21,6 +21,61 @@
   background-color: gray;
 }
 
+
+/* Experiência */
+.experiencia {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 4rem 1.2rem;  
+}
+
+.holdExperiencia{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.holdTextExp{
+  text-align: center;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #F3FF08;
+  position: relative;
+}
+
+.holdTextExp::after{
+  content: "";
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #fff;
+  position:absolute;
+  bottom: -13%;
+  left: 46%;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.holdCompany{
+  text-align: center;
+  padding: 80px 0px;
+  position: relative;
+}
+
+.holdCompany::before {
+  content: '';
+  display: inline-block;
+  width: 1px;
+  height: 33%;
+  background-color: #fff;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+}
+
 /* mobile */
 @media(max-width: 720px) {
   .containerMain {
