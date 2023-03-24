@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Home.module.css';
+import Slider from './Slider/Slider';
 
 const Home = () => {
   return (
@@ -7,7 +8,7 @@ const Home = () => {
       <main className={styles.home}>
         <div className={styles.containerMain}>
           <div className={styles.colLeftMain}>
-            <h1>Olá, sou o Wendhel Nogueira</h1>
+            <h1>Olá, sou o Wendhel</h1>
             <p className="txt-color-yellow">Desenvolvedor Front-End</p>
             <p>
               Após alguns anos de experiência em desenvolvimento de aplicações
@@ -40,6 +41,7 @@ const Home = () => {
             <p>Comunicação e Design</p>
             <p className="txt-color-yellow">Out/2020 - Ago/2022</p>
           </div>
+          <Slider />
         </div>
       </section>
     </>

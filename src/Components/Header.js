@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import styles from './Header.module.css';
-import { ReactComponent as Wendhel } from '../Assets/logotipo-white.svg';
+import logo from '../Assets/image3.svg';
 import useMedia from '../Hooks/useMedia';
 
 const Header = () => {
@@ -19,7 +19,7 @@ const Header = () => {
         <div className={`${styles.holdHeader} container`}>
           <div className={styles.logotipo}>
             <Link to="/" aria-label="Home">
-              <Wendhel className={styles.logo} />
+              <img src={logo} alt="logotipo" className={styles.logo} />
             </Link>
           </div>
           <nav>
