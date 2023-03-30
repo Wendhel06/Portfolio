@@ -10,6 +10,7 @@ body {
     font-family: var(--type-first);
     background-color: #000;
     padding-top: 5rem;
+    height: calc(100vh - 169px);
 }
 
 h1,h2,h3, p {
@@ -67,6 +68,11 @@ img {
     text-transform: uppercase;
     font-size: 0.8rem;
     margin-top: 80px;
+}
+
+.buttonMain:hover {
+    background-color: #F3FF08;
+    color: #000;
 }
 
 .container {

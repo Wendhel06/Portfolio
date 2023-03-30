@@ -1,0 +1,33 @@
+.contato {
+  height: calc(100vh - 169px);
+}
+
+.containerContato {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 4rem 1.2rem;
+}
+
+.holdLinksContato{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0.8rem;
+  border: 0.8px solid #fff;
+  border-radius: 8px;
+  width: 100%;
+  box-shadow: 0px 0px 0px 1px #fff;
+  margin-top: 30px;
+}
+
+.linkContato{
+  display: flex;
+  gap: 15px;
+  transition: 0.4s;
+}
+
+.linkContato:hover .icons,
+.linkContato:hover p{
+  color: #F3FF08;
+  transition: 0.4s;
+}

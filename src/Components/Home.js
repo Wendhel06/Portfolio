@@ -4,7 +4,7 @@ import Slider from './Slider/Slider';
 
 const Home = () => {
   return (
-    <>
+    <section>
       <main className={styles.home}>
         <div className={styles.containerMain}>
           <div className={styles.colLeftMain}>
@@ -21,8 +21,8 @@ const Home = () => {
               experiências ao longo do caminho. Minhas especialidades são:
               Wordpress, JavaScript, HTML/CSS, Reactjs, Git e outros.
             </p>
-            <a href="/cursos" className="buttonMain">
-              Projetos
+            <a href="/github" className="buttonMain">
+              GitHub
             </a>
           </div>
           <div className={styles.holdImgMain}>
@@ -44,7 +44,7 @@ const Home = () => {
           <Slider />
         </div>
       </section>
-    </>
+    </section>
   );
 };
 
