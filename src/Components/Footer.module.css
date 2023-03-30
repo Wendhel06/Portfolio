@@ -1,0 +1,9 @@
+.holdFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  background-color: #000;
+}

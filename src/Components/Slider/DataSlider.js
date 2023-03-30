@@ -10,7 +10,7 @@ const DataSlider = [
   {
     id: uuidv4(),
     title: 'Almabuena',
-    descricao: 'Projeto que desenvolvi trabalhando MDGA',
+    descricao: 'Almabuena foi um cliente da MDGA',
     link: 'https://google.com',
   },
 ];

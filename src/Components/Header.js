@@ -39,8 +39,8 @@ const Header = () => {
               }`}
             >
               <li>
-                <Link to="/cursos" className={styles.menuLink}>
-                  Cursos
+                <Link to="/github" className={styles.menuLink}>
+                  GitHub
                 </Link>
               </li>
               <li>

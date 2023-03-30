@@ -1,3 +1,5 @@
+/* Reset */
+
 * {
     box-sizing: border-box;
 }
@@ -59,7 +61,6 @@ img {
 }
 
 .buttonMain {
-    /* background-color: #fff; */
     padding: 4px 20px;
     font-weight: 600;
     border: 1px solid #F3FF08;
